@@ -4,7 +4,6 @@ const siteController = require('../app/controllers/SiteController');
 
 function routes(app) {
     app.use('/news', newsRoute);
-                app.use('/', siteRoute);
+    app.use('/', siteRoute);
 }
-module.exports =                          routes;
-//"fdfsdffdfsdf"
+module.exports = routes;
